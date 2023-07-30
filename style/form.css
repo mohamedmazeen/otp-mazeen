@@ -1,0 +1,27 @@
+/**
+*
+* form.css 
+* @author - Mazeen
+* @date - 29/7/2023 
+**/
+.number-field {
+    background-color: #edeaed;
+    font-size: 20px;
+    padding: 15px;
+    width: 40px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.primary-btn {
+    font-weight: bold;
+    padding:10px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #fec201;
+    cursor: pointer;
+}

@@ -1,0 +1,2 @@
+# OTP Verification
+This is a programme built using HTML, CSS, and Javascript. It allows only number to be entered into the inputs and it will automatically move to the next input field once the previous input field has been filled. The verify OTP button helps to verify if OTP has been entered, and if so it will reset. It also helps to validate if all the input fields have been filled. if not, it will prompt an error message to the user.

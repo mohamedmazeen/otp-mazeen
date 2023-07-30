@@ -1,0 +1,20 @@
+/**
+*
+* style.css 
+* @author - Mazeen
+* @date - 29/7/2023 
+**/
+.verification {
+    width: 350px;
+    margin: 100px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px 68px;
+    box-sizing: border-box;
+}
+.error {
+    color: #c0392b;
+    margin: 2px 0;
+    font-size: 13px;
+    text-align: center;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style/index.css">
+        <script src="script/script.js"></script>
+        <title>OTP</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="verification">
+                <h1>Enter Your 4 Digit OTP</h1>
+                <div class="row mt-20">
+                    <div class="col-1 h-center">
+                        <input class="number-field" id="otp-1" type="text" maxlength="1" onkeypress="validEntry(event)" onkeyup="move(this, 'otp-2')" autofocus>
+                    </div>
+                    <div class="col-1 h-center">
+                        <input class="number-field" id="otp-2" type="text" maxlength="1" onkeypress="validEntry(event)" onkeyup="move(this, 'otp-3')">
+                    </div>
+                    <div class="col-1 h-center">
+                        <input class="number-field" type="text" id="otp-3" maxlength="1" onkeypress="validEntry(event)" onkeyup="move(this, 'otp-4')">
+                    </div>
+                    <div class="col-1 h-center">
+                        <input class="number-field" id="otp-4" type="text" maxlength="1" onkeypress="validEntry(event)">
+                    </div>
+                </div>
+                <div class="error" id="errorMsg"></div>
+                <button class="primary-btn mt-20" type="button" onclick="validation()">Verify OTP</button>
+            </div>
+        </div>
+    </body>
+</html>

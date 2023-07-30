@@ -1,0 +1,19 @@
+/**
+*
+* align.css 
+* @author - Mazeen
+* @date - 29/7/2023 
+**/
+.v-center-space {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.h-right {
+    display: inline-flex;
+    justify-content: end;
+}
+.h-center {
+    display: inline-flex;
+    justify-content: center;
+}
